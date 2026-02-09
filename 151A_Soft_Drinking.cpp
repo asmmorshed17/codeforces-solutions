@@ -9,7 +9,7 @@ int main(){
 
     int toast1 = (k*l)/nl;
     int toast2 = (c*d);
-    int toast3  = (p*np);
+    int toast3  = (p/np);
 
     int ans= min(toast1,min(toast2,toast3))/n;
     cout<<ans<<endl;
@@ -17,6 +17,20 @@ int main(){
 
 /*
 set<int>s;
+    s.insert(a);
+    s.insert(b);
+    s.insert(e);
+    cout<<*(s.begin())/n;
+    */
+
+    /*
+    int n,k,l,c,d,p,nl,np;
+    cin>>n>>k>>l>>c>>d>>p>>nl>>np;
+    int a=(k*l)/nl;
+    int b=c*d;
+    int e=p/np;
+    
+    set<int>s;
     s.insert(a);
     s.insert(b);
     s.insert(e);
