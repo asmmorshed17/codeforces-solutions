@@ -26,11 +26,9 @@ void solve()
 int main()
 {
     optimize();
-    //  testcase{
-    // solve();
-    // }
 
    // solve();
    testcase solve();
     return 0;
 }
+//
